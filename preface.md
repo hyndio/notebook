@@ -3,4 +3,4 @@
  - 2 [cometd学习](cometd.md)
  - 3 [SeaJS学习](seajs_learning.md)
  - 4 [javascript的静态非静态方法](js_methods.md)
- - 5 [$.extend()_and_$.fn.extend()_confusion]($.extend() and $.fn.extend() confusion.md)
+ - 5 [jQuery两种扩展的困惑]($.extend() and $.fn.extend() confusion.md)
