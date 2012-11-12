@@ -5,3 +5,4 @@
  - 4 [javascript的静态非静态方法](js_methods.md)
  - 5 [jQuery两种扩展的困惑](jQuery.extend_and_jQuery.fn.extend_confusion.md)
  - 6 [Unix编程艺术](Unix编程艺术.md)
+ - 7 [Hibernate的保存与更新](Hibernate的保存与更新.md)
