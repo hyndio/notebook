@@ -26,3 +26,7 @@
 >Recover：是一个内建的函数，可以让进入令人恐慌的流程中的goroutine恢复过来。recover仅在延迟函数(defer)中有效。
 
 >**对应异常机制，Go 的这种错误机制或许可以叫做恐慌机制：当你遇到它时应该感到恐慌（panic），然后应该恢复（recover）它。**
+
+## 错误处理
+
+参考astaxie写的开源书[《Go Web 编程》](https://github.com/astaxie/build-web-application-with-golang)的[错误处理](https://github.com/astaxie/build-web-application-with-golang/blob/master/11.1.md)章节。
