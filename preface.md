@@ -6,3 +6,4 @@
  - 5 [jQuery两种扩展的困惑](jQuery.extend_and_jQuery.fn.extend_confusion.md)
  - 6 [Unix编程艺术](Unix编程艺术.md)
  - 7 [Hibernate的保存与更新](hibernate的保存与更新.md)
+ - 8 [Golang错误与异常](Golang错误与异常.md)
