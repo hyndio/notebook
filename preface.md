@@ -9,3 +9,7 @@
  - 8 [Golang错误与异常](articles/Golang错误与异常.md)
  - 9 [工作流之自我见](articles/工作流之自我见.md)
  - 10 [零星的笔记](articles/零星的笔记.md)
+
+* 2012-12
+ - 1 [spring-security-3.1-扩展](articles/spring-security-3.1.extend.md)
+ - 2 [vim tips](vim_tips.md)
