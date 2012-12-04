@@ -12,4 +12,4 @@
 
 * 2012-12
  - 1 [spring-security-3.1-扩展](articles/spring-security-3.1.extend.md)
- - 2 [vim tips](vim_tips.md)
+ - 2 [vim tips](articles/vim_tips.md)
