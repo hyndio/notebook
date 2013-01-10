@@ -21,16 +21,21 @@ subversion: 1.6.18 （里面包含apr-1.4.6, apr-util-1.4.1）
 	>./configure （注：自动安装到/usr/local/apr）
 	>make
 	>make install
-	2）apr-util-1.4.1
+
+2）apr-util-1.4.1
+
 	>cd subversion-1.6.18/apr-util
 	>./configure --with-apr=/usr/local/apr
 	>make
 	>make install
-	3）httpd-2.2.22
+
+3）httpd-2.2.22
+
 	>cd httpd-2.2.22
 	>./configure --prefix=/usr/local/apache2 --enable-dav --enable-so --enable-maintainer-mode --with-apr=/usr/local/apr --with-apr-util=/usr/local/apr
 	>make
 	>make install
+
 注：--enable-dav --enable-so这两个参数必须加，不然启动httpd服务时报错。
 具体看：http://jimingsong.iteye.com/blog/1186620
 
@@ -53,9 +58,11 @@ subversion: 1.6.18 （里面包含apr-1.4.6, apr-util-1.4.1）
 
 ## 三、参考文章（感谢各位！）
 
-1）SVN服务器的搭建和基础配置--Linux环境 http://blog.csdn.net/tbkken/article/details/7629209
-2）Linux下apache+SVN搭建完美版 http://blog.csdn.net/laiahu/article/details/6691419
-3）装个svn真TM费劲，SVN+apache配置 总算启动没报错，麻烦 http://liuzg-521.blog.163.com/blog/static/12931652010101113710688/
-4）apache安装常见问题 http://sndapk.blog.51cto.com/5385144/922732
+- SVN服务器的搭建和基础配置--Linux环境 http://blog.csdn.net/tbkken/article/details/7629209
+- Linux下apache+SVN搭建完美版 http://blog.csdn.net/laiahu/article/details/6691419
+- 装个svn真TM费劲，SVN+apache配置 总算启动没报错，麻烦 http://liuzg-521.blog.163.com/blog/static/12931652010101113710688/
+- apache安装常见问题 http://sndapk.blog.51cto.com/5385144/922732
+
 补充一篇（主要是针对Linux用户权限的问题）：
-Linux(centos)下apache与svn整合安装 http://www.phpwebgo.com/2012/06/20/371.html
+
+- Linux(centos)下apache与svn整合安装 http://www.phpwebgo.com/2012/06/20/371.html
