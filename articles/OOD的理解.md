@@ -12,7 +12,7 @@
 
 ## OOD的目的
 
-走在结冰的河边不会湿鞋，开发需求不变的项目畅通无阻(Walking on water and developing software from a specification are easy if both are frozen)。 -Edward V. Berard
+>走在结冰的河边不会湿鞋，开发需求不变的项目畅通无阻(Walking on water and developing software from a specification are easy if both are frozen)。 -Edward V. Berard
 
 一个设计敏捷的软件能轻松应对变化，能被扩展，并且能被复用。
 
@@ -44,7 +44,7 @@ Liskov's替换原则：子类型必须能够替换它们基类型。
 
 依赖倒置原则：高层模块不应该依赖底层模块，两者都应该依赖其抽象。
 
-## 其它的面向对象原设计则
+## 其它的面向对象设计原则
 
 - "组合替代继承":这是说相对于继承，要更倾向于使用组合；
 - "笛米特法则"：这是说"你的类对其它类知道的越少越好"；
